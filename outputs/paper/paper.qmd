@@ -1,6 +1,14 @@
 ---
 title: "Tea first or milk first? Doesn't matter!"
-author: "Team Patricia"
+author: 
+  - Jayden Jung
+  - Jason Ngo
+  - Iz Leitch
+  - Randall Ni
+  - Julie Nguyen
+  - Will Davidson
+  - Syed Hassan
+  - Tayedza Chikumbirike
 thanks: "Code and data are available at: https://github.com/tayedzac/tea_tasting"
 date: "`r Sys.time()`"
 date-format: "MMMM D YYYY"
@@ -43,5 +51,3 @@ The results were highly conclusive pointing to no difference between milk first 
 ## Weaknesses and next steps
 
 In next steps, we would use a simpler method for adding the milk, such as a measuring scoop, as this would keep the amounts similar without having to use a scale. We would also like to compare the tasting ability across different testers with different tea experience levels and diets. We would also like to control for other factors such as temperature, and steeping level, as some samples were warmer than others affecting the taste. As well, a larger amount of tea allowing for better testing.
-
-# References
