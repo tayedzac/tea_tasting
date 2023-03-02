@@ -34,26 +34,11 @@ You can and should cross-reference sections and sub-sections. For instance, @sec
 For this experiment we collected our own data exploring whether it is possible to taste the difference between tea first or milk first. Along the way we had some challenges, we had trouble getting exact measurements as the scale could only measure within .5 of a gram. There was also the issue of the cups not being stirred. Lastly, the tester both doesn't normally drink tea but also has a diet without subtle flavours. 
 
 
-# Model
-
-$$
-Pr(\theta | y) = \frac{Pr(y | \theta) Pr(\theta)}{Pr(y)}
-$$ {#eq-bayes}
-
-@eq-bayes seems useful, eh?
-
-Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @thereferencecanbewhatever If we were interested in baseball data then @citeLahman could be useful. 
-
-We can use maths by including latex between dollar signs, for instance $\theta$.
-
-
 # Results
-
+The results were highly conclusive pointing to no difference between milk first and tea first, as there was a 50/50 distribution in the tester made groups.
 # Discussion
 
 ## First discussion point {#sec-first-point}
-
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
 
 ## Second discussion point
 
