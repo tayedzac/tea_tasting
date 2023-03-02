@@ -1,13 +1,9 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
-author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: LINK."
+title: "Tea first or milk first? Doesn't matter!"
+author: "Team Patricia"
+thanks: "Code and data are available at: https://github.com/tayedzac/tea_tasting"
 date: "`r Sys.time()`"
-date-format: "D MMMM YYYY"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+date-format: "MMMM D YYYY"
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -19,48 +15,33 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
 ```
-
-
-# Introduction
-
-You can and should cross-reference sections and sub-sections. For instance, @sec-data and @sec-first-point. 
-
-
 
 # Data {#sec-data}
 
-For this experiment we collected our own data exploring whether it is possible to taste the difference between tea first or milk first. Along the way we had some challenges, we had trouble getting exact measurements as the scale could only measure within .5 of a gram. There was also the issue of the cups not being stirred. Lastly, the tester both doesn't normally drink tea but also has a diet without subtle flavours. 
+For this experiment we collected our own data exploring whether it is possible to taste the difference between tea first or milk first. Along the way we had some challenges, we had trouble getting exact measurements as the scale could only measure within .5 of a gram. There was also the issue of the cups not being stirred. Lastly, the tester both doesn't normally drink tea but also has a diet without subtle flavours.
 
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+tea_data <- read_csv(here::here("inputs/data/raw_data.csv"), 
+                     show_col_types = FALSE)
+
+tea_data %>% 
+  ggplot(aes(x = group, fill = type)) +
+  geom_bar() +
+  labs(x = "Grouping by subject", y = "Count", fill = "Cup type") + 
+  ggtitle("The subject could not discern at all the two types") 
+```
 
 # Results
+
 The results were highly conclusive pointing to no difference between milk first and tea first, as there was a 50/50 distribution in the tester made groups.
-# Discussion
-
-## First discussion point {#sec-first-point}
-
-## Second discussion point
-
-## Third discussion point
 
 ## Weaknesses and next steps
 
 In next steps, we would use a simpler method for adding the milk, such as a measuring scoop, as this would keep the amounts similar without having to use a scale. We would also like to compare the tasting ability across different testers with different tea experience levels and diets. We would also like to control for other factors such as temperature, and steeping level, as some samples were warmer than others affecting the taste. As well, a larger amount of tea allowing for better testing.
 
-\newpage
-
-\appendix
-
-# Appendix {-}
-
-
-# Additional details
-
-
-\newpage
-
-
 # References
-
-
