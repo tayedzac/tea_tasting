@@ -1,2 +1,9 @@
-first_col, second_col, third_col
-some, raw, data
+type,cup,group
+m,1,1
+m,2,1
+m,3,2
+m,4,2
+t ,5,1
+t,6,1
+t,7,2
+t,8,2
