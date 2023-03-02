@@ -1,13 +1,17 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Fischer Tea Tasting Experiment"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: LINK."
+  - Jayden Jung
+  - Jason Ngo
+  - Iz Leitch
+  - Randall Ni
+  - Julie Nguyen
+  - Will Davidson
+  - Syed Hassan
+  - Tayedza Chikumbirike
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "add abstract"
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -38,11 +42,6 @@ For this experiment we collected our own data exploring whether it is possible t
 The results were highly conclusive pointing to no difference between milk first and tea first, as there was a 50/50 distribution in the tester made groups.
 # Discussion
 
-## First discussion point {#sec-first-point}
-
-## Second discussion point
-
-## Third discussion point
 
 ## Weaknesses and next steps
 
