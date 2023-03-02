@@ -61,7 +61,7 @@ If my paper were 10 pages, then should be be at least 2.5 pages. The discussion 
 
 ## Weaknesses and next steps
 
-Weaknesses and next steps should also be included.
+In next steps, we would use a simpler method for adding the milk, such as a measuring scoop, as this would keep the amounts similar without having to use a scale. We would also like to compare the tasting ability across different testers with different tea experience levels and diets. We would also like to control for other factors such as temperature, and steeping level, as some samples were warmer than others affecting the taste. As well, a larger amount of tea allowing for better testing.
 
 \newpage
 
