@@ -21,6 +21,6 @@ simulated_data <- data.frame("cup_type" = column_01,
                              "group" = column_02)
 
 simulated_data
-
+write_csv(simulated_data, here::here("inputs/data/simulated_data.csv"))
 
 
